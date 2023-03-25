@@ -249,6 +249,7 @@ if FBAN_GROUP_ID:
     FBAN_GROUP_ID = int(FBAN_GROUP_ID)
 EXCLUDE_FED = os.environ.get("EXCLUDE_FED", None)
 
+
 # By @HeisenbergTheDanger, @its_xditya
 @catub.cat_cmd(pattern="superfban$", command=("superfban", plugin_category))
 async def _(event):

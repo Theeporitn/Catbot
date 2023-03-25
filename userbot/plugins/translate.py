@@ -10,6 +10,7 @@ from . import BOTLOG, BOTLOG_CHATID, deEmojify
 
 plugin_category = "utils"
 
+
 # https://github.com/ssut/py-googletrans/issues/234#issuecomment-722379788
 async def getTranslate(text, **kwargs):
     translator = Translator()
